@@ -70,7 +70,7 @@ function mostrarPublicidad(producto, idioma) {
 }
 
 // Definir categorías según la página
-let categoria = "";
+let categoria = "sport";
 if (window.location.pathname.includes("index.html")) {
   categoria = "sport"; // Productos generales
 } else if (window.location.pathname.includes("destinos.html")) {
